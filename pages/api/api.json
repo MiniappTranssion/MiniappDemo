@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "enablePullUpRefresh": false,
+  "enableAddScreen": true,
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "ByteApp Official Demo",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarIconStyle": "black"
+}

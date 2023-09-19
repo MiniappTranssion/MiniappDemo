@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "enablePullUpRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "Download a file",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarIconStyle": "black",
+  "navigationBarHomeAction": "back"
+}

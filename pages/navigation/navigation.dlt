@@ -1,0 +1,47 @@
+<view class="pd16 navigation">
+  <view class="pd16 bg-white br4">
+    <view :class="['item', {'focus': isFocus}]">
+      <text class="label">Page Title</text>
+      <input
+        type="text"
+        :value="title"
+        class="input"
+        placeholder="Enter a title and click “Set”"
+        bind:input="modifyTitle"
+        bind:focus="updateTitleStatus"
+        bind:blur="updateTitleStatus"
+      />
+    </view>
+    <view class="item mt16">
+      <text class="label">Title Color</text>
+      <view>
+        <mbutton
+          data-color="black"
+          bind:tap="modifyColor"
+          :class="['btn-black', {'selected': titleColor === defaultTitleColor}]"
+        ></mbutton>
+        <mbutton
+          data-color="white"
+          bind:tap="modifyColor"
+          :class="['btn-white ml16', {'selected': titleColor !== defaultTitleColor}]"
+        ></mbutton>
+      </view>
+    </view>
+    <mbutton bind:tap="set" class="btn mt24" size="large" type="info"
+      >Set</mbutton
+    >
+    <mbutton bind:tap="reset" class="btn mt12" size="large" type="default"
+      >Reset</mbutton
+    >
+  </view>
+  <view class="pd16 bg-white br4 mt12">
+    <mbutton bind:tap="randomBgColor" size="large" class="btn" type="info"
+      >Random Background Color</mbutton
+    >
+  </view>
+  <view class="pd16 bg-white br4 mt12">
+    <mbutton bind:tap="switchIconColor" size="large" class="btn" type="info"
+      >Change Icon Color</mbutton
+    >
+  </view>
+</view>

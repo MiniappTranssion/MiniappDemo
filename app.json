@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/components/components",
+    "pages/api/api",
+    "pages/case/case",
+    "pages/view/view",
+    "pages/swiper/swiper",
+    "pages/text/text",
+    "pages/button/button",
+    "pages/editor/editor",
+    "pages/image/image",
+    "pages/navigation/navigation",
+    "pages/set_navigation/set_navigation",
+    "pages/progress_bar/progress_bar",
+    "pages/page_jumping/page_jumping",
+    "pages/page_jumping_01/page_jumping_01",
+    "pages/page_jumping_02/page_jumping_02",
+    "pages/page_jumping_03/page_jumping_03",
+    "pages/page_jumping_04/page_jumping_04",
+    "pages/page_jumping_05/page_jumping_05",
+    "pages/pull_to_refresh/pull_to_refresh",
+    "pages/dialog/dialog",
+    "pages/modal_loader/modal_loader",
+    "pages/toast/toast",
+    "pages/dxml/dxml",
+    "pages/device_info/device_info",
+    "pages/phone/phone",
+    "pages/clipboard/clipboard",
+    "pages/vibration/vibration",
+    "pages/request/request",
+    "pages/upload/upload",
+    "pages/download/download",
+    "pages/photo/photo",
+    "pages/location/location",
+    "pages/local_storage/local_storage",
+    "pages/scan/scan",
+    "pages/scroll_view/scroll_view"
+  ],
+  "window": {
+    "navigationBarTitleText": "ByteApp Official Demo",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default",
+    "enablePullDownRefresh": false,
+    "enablePullUpRefresh": false,
+    "enableAddScreen": false,
+    "enableNavigationBarLoading": false,
+    "contentBackgroundColor": "#f5f7fa"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/components/components",
+        "text": "Components",
+        "iconPath": "images/component_normal.png",
+        "selectedIconPath": "images/component_selected.png"
+      },
+      {
+        "pagePath": "pages/api/api",
+        "text": "API",
+        "iconPath": "images/api_normal.png",
+        "selectedIconPath": "images/api_selected.png"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "text": "Case",
+        "iconPath": "images/smtui_normal.png",
+        "selectedIconPath": "images/smtui_selected.png"
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "color": "#92969e",
+    "selectedColor": "#191f2b",
+    "position": "bottom",
+    "custom": false
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  }
+}

@@ -1,0 +1,7 @@
+.text {
+  color: #191f2b;
+  line-height: 16px;
+}
+.text .block {
+  display: block;
+}

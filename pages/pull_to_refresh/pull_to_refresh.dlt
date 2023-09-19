@@ -1,0 +1,7 @@
+<view class="pd16 refresh">
+    <view class="pd16 bg-white br4 refresh-content">
+        <text class="desc">Pull down here to refresh</text>
+        <mbutton bind:tap="refresh" size="large" class="btn mt24" type="info">Trigger Pull-to-refresh</mbutton>
+        <mbutton bind:tap="stopRefresh" size="large" class="btn mt12" type="info">Stop Refreshing</mbutton>
+    </view>
+</view>

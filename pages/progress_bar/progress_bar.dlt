@@ -1,0 +1,6 @@
+<view class="pd16 progress">
+    <view class="pd16 bg-white br4">
+        <mbutton bind:tap="showProgressBar" size="large" class="btn" type="info">Show Progress Bar</mbutton>
+        <mbutton bind:tap="hideProgressBar" size="large" class="btn mt12">Hide</mbutton>
+    </view>
+</view>

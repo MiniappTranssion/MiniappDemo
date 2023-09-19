@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "enablePullUpRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "Navigation Bar UI",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarIconStyle": "black",
+  "navigationBarHomeAction": "back"
+}

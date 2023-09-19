@@ -1,0 +1,5 @@
+<view class="pd16 api">
+    <view class="pd16 bg-white br4">
+        <mbutton bind:tap="showModalLoader" size="large" class="btn__long" type="info">Show Modal Loader</mbutton>
+    </view>
+</view>

@@ -1,0 +1,28 @@
+.download .content {
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download .content .desc {
+  margin-top: 12px;
+  text-align: center;
+  color: #92969e;
+  line-height: 16px;
+}
+
+.download .btn + .btn {
+  margin-top: 12px;
+}
+.download .btn .tmc-loading__spinner {
+  width: 20px;
+  height: 20px;
+}
+.download .btn:before {
+  background-color: #191f2b;
+  border-color: #191f2b;
+}
+.download .btn:active:before {
+  opacity: 0.2;
+}

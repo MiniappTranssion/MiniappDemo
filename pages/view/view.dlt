@@ -1,0 +1,22 @@
+<view class="pd-12-16 view">
+  <view class="tip"
+    >View is similar to HTML Div. It makes divisions of content on the mobile
+    page.</view
+  >
+  <view class="pd16 mt12 bg-white br4">
+    <view class="title">Row View</view>
+    <view class="mt12 row">
+      <view class="item a">A</view>
+      <view class="item b">B</view>
+      <view class="item c">C</view>
+    </view>
+  </view>
+  <view class="pd16 mt12 bg-white br4">
+    <view class="title">Column View</view>
+    <view class="mt12 column">
+      <view class="item a">A</view>
+      <view class="item b">B</view>
+      <view class="item c">C</view>
+    </view>
+  </view>
+</view>

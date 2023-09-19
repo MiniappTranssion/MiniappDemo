@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "enablePullUpRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "Pull-to-refresh",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarIconStyle": "black",
+  "navigationBarHomeAction": "back"
+}

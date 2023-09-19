@@ -1,0 +1,74 @@
+<view>
+  <view class="pd16 swiper">
+    <mswiper
+      class="br4 content"
+      :autoplay="autoPlay ? autoPlayNum : 0"
+      :vertical="isColumn"
+      :duration="speed"
+      :initial-swipe="initialSwipe"
+      :loop="loop"
+      :show-indicators="paginationVisible"
+    >
+      <mswiper-item class="swiper-slide flex-center-center">1</mswiper-item>
+      <mswiper-item class="swiper-slide flex-center-center">2</mswiper-item>
+      <mswiper-item class="swiper-slide flex-center-center">3</mswiper-item>
+    </mswiper>
+    <view class="bg-white br4 mt12 control">
+      <view class="flex-between-center control-item">
+        <text>Dots Indicator</text>
+        <mswitch
+          :active="paginationVisible"
+          bind:change="handleDotsSwitch"
+        ></mswitch>
+      </view>
+      <view class="flex-between-center control-item">
+        <text>Column View</text>
+        <mswitch
+          :active="isColumn"
+          bind:change="handleDirectionSwitch"
+        ></mswitch>
+      </view>
+      <view class="flex-between-center control-item">
+        <text>Autoplay</text>
+        <mswitch
+          :active="autoPlay"
+          bind:change="handleAutoplaySwitch"
+        ></mswitch>
+      </view>
+      <!-- <view class="flex-between-center control-item">
+        <text>Loop</text>
+        <mswitch :active="loop" bind:change="handleLoopSwitch"></mswitch>
+      </view> -->
+      <view class="control-slider-item flex-center-center">
+        <view class="w100">
+          <view class="flex-between-center">
+            <text>Duration in slide transition (ms)</text>
+            <text>{{ speed }}</text>
+          </view>
+          <slider
+            class="mt12"
+            key="speed"
+            :range="transtionRange"
+            :stage="stage"
+            :value="speed"
+            bind:change="handleSpeedSlideChange"
+          ></slider>
+        </view>
+        <view class="mt24 w100">
+          <view class="flex-between-center">
+            <text>Autoplay Interval</text>
+            <text>{{ autoPlayNum }}</text>
+          </view>
+          <slider
+            class="mt12"
+            key="autoplay"
+            :range="autoRange"
+            :stage="stage"
+            :value="autoPlayNum"
+            bind:change="handleAutoplaySlideChange"
+          ></slider>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

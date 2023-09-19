@@ -1,0 +1,26 @@
+<view class="pd16 api clipboard">
+  <view class="pd-12-16-16 bg-white br4">
+    <text class="label">Content</text>
+    <view class="item">
+      <input
+        type="text"
+        class="text-ellipsis input"
+        :value="content"
+        bind:blur="updateContent"
+      />
+      <mbutton bind:tap="copy" class="btn ml16" type="info">Copy</mbutton>
+    </view>
+  </view>
+  <view class="pd-12-16-16 bg-white br4 mt12">
+    <text class="label">Content</text>
+    <view class="item">
+      <input
+        type="text"
+        class="text-ellipsis input"
+        :value="pasteContent"
+        disabled
+      />
+      <mbutton bind:tap="paste" class="btn ml16" type="info">Paste</mbutton>
+    </view>
+  </view>
+</view>

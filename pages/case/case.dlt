@@ -1,0 +1,11 @@
+<view class="pd16 case">
+  <view
+    class="bg-white br4 case-item"
+    s-for="item in caseList"
+    :key="item.appId"
+    :data-appid="item.appId"
+    bind:tap="openOtherMiniapp">
+    <image class="icon" :src="item.logo" />
+    <text class="title">{{item.name}}</text>
+  </view>
+</view>

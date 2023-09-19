@@ -1,0 +1,61 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section mt16">
+      <view class="page-section-title">
+        <text>Vertical Scroll\n纵向滚动</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view
+          style="height: 300rpx"
+          :scroll-y="true"
+          :scroll-top="scrollTop"
+          :scroll-into-view="scrollIntoView"
+          :scroll-with-animation="true"
+          :scroll-animation-duration="120"
+          :refresh-state="freshY"
+          :refresher-enabled="true"
+          loosing-refresh-text="释放触发下拉刷新"
+          bind:refresh="refreshY"
+          bind:scrolltoupper="scrolltoupperY"
+          bind:scrolltolower="scrolltolowerY"
+          bind:onscroll="handleScrollY"
+        >
+          <template v-slot:pulling>
+            <h1>自定义pulling</h1>
+          </template>
+          <view id="demo1" class="scroll-view-item demo-text-1">A</view>
+          <view id="demo2" class="scroll-view-item demo-text-2">B</view>
+          <view id="demo3" class="scroll-view-item demo-text-3">C</view>
+          <view id="demo4" class="scroll-view-item demo-text-1">A</view>
+          <view id="demo5" class="scroll-view-item demo-text-2">B</view>
+          <view id="demo6" class="scroll-view-item demo-text-3">C</view>
+        </scroll-view>
+      </view>
+      <view class="mt12">
+        <mbutton bind:tap="toNextY">to NextY</mbutton>
+        <mbutton class="ml12" bind:tap="tapMove">tap move</mbutton>
+        <mbutton class="ml12" bind:tap="scrollToDemo">scroll to demo3</mbutton>
+      </view>
+    </view>
+    <view class="page-section mt16">
+      <view class="page-section-title">
+        <text>Horizontal Scroll\n横向滚动</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view
+          class="scroll-view_H"
+          :scroll-x="true"
+          :refresh-state="freshX"
+          :refresher-enabled="true"
+          bind:refresh="refreshX"
+          bind:scrolltoupper="scrolltoupperX"
+          bind:scrolltolower="scrolltolowerX"
+        >
+          <view id="demox1" class="scroll-view-item_H demo-text-1">A</view>
+          <view id="demox2" class="scroll-view-item_H demo-text-2">B</view>
+          <view id="demox3" class="scroll-view-item_H demo-text-3">C</view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<view class="pd16 api">
+  <view class="pd16 bg-white br4 scan">
+    <view class="scan-title">Scan Result</view>
+    <view class="mt16 scan-data">{{ scanInfo ? scanInfo : 'None' }}</view>
+    <mbutton bind:tap="scan" size="large" class="mt24 btn__long" type="info"
+      >Scan</mbutton
+    >
+  </view>
+</view>

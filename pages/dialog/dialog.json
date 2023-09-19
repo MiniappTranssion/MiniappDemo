@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "enablePullUpRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "Modal Dialog",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarIconStyle": "black",
+  "navigationBarHomeAction": "back"
+}

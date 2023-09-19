@@ -1,0 +1,10 @@
+<view class="pd16 api">
+  <view class="pd16 bg-white br4 vibration">
+    <view class="item">
+      <text class="label">Duration</text>
+      <input type="number" class="input" placeholder="Input" bind:input="modifyDuration"/>
+      <text class="tip">Vibration Duration: {{min}}-{{max}}ms</text>
+    </view>
+    <mbutton bind:tap="handleVibrate" class="btn__long mt46" size="large" type="info">Vibrate</mbutton>
+  </view>
+</view>

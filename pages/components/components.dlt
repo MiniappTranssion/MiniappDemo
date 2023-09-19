@@ -1,0 +1,14 @@
+<view class="pd16">
+  <view class="wrap" s-for="item in components">
+    <view class="title">
+      <image class="icon" :src="'/images/' + item.icon + '.webp'" />
+      <text>{{item.title}}</text>
+    </view>
+    <view class="ul" s-for="child in item.children">
+      <view class="li" bind:tap="navigateTo" :data-url="'pages/' + child.key + '/' + child.key">
+        <text>{{child.name}}</text>
+        <image class="icon" src="/images/icon_arrow.png" />
+      </view>
+    </view>
+  </view>
+</view>

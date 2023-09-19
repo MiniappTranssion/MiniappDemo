@@ -1,0 +1,18 @@
+.refresh {
+  text-align: center;
+}
+.refresh .refresh-content {
+  padding-top: 24px;
+}
+.refresh .desc {
+  text-align: center;
+  color: #92969e;
+  line-height: 16px;
+}
+.refresh .btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: Roboto, Roboto-Regular;
+}

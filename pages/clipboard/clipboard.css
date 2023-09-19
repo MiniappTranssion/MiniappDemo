@@ -1,0 +1,40 @@
+.clipboard .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  box-shadow: 0px -0.5px 0px 0px #e4e6eb inset;
+}
+
+.pd-12-16-16 {
+  padding: 12px 16px 16px;
+}
+
+.clipboard .label {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #92969e;
+  line-height: 40px;
+}
+.clipboard .item .btn {
+  width: 80px;
+  height: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Roboto, Roboto-Regular;
+}
+.clipboard .item .text,
+.clipboard .item .input[disabled],
+.clipboard .item .input {
+  border: 0;
+  outline: none;
+  flex: 1;
+  color: #191f2b;
+  line-height: 16px;
+  background: transparent;
+}
+.clipboard .item .input::placeholder {
+  font-size: 14px;
+  color: #92969e;
+}

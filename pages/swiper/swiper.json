@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "enablePullUpRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "Swiper",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarIconStyle": "black",
+  "navigationBarHomeAction": "back"
+}

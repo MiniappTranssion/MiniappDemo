@@ -1,0 +1,43 @@
+<view class="pd16 api">
+    <view class="pd16 bg-white br4 dxml">
+       <text class="label">Location</text>
+       <view class="content">
+            <view class="content-item">
+                <text>Left</text>
+                <text>{{left}}</text>
+            </view>
+            <view class="content-item">
+                <text>Right</text>
+                <text>{{right}}</text>
+            </view>
+       </view>
+       <view class="content">
+            <view class="content-item">
+                <text>Top</text>
+                <text>{{top}}</text>
+            </view>
+            <view class="content-item">
+                <text>Bottom</text>
+                <text>{{bottom}}</text>
+            </view>
+       </view>
+       <text class="label mt16">Size</text>
+       <view class="content">
+            <view class="content-item">  
+                <text>Width</text>
+                <text>{{width}}</text>
+            </view>
+            <view class="content-item">
+                <text>Height</text>
+                <text>{{height}}</text>
+            </view>
+       </view>
+       <view class="move-wrap mt16">
+        <movable-area>
+            <movable-view id="movable-view" bind:bindchange="bindchange" :out-of-bounds="false" :animation="false">
+                Drag
+            </movable-view>
+        </movable-area>
+       </view>
+    </view>
+</view>

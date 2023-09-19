@@ -1,0 +1,16 @@
+<view class="pd16 api">
+  <view class="pd16 bg-white br4">
+    <mbutton bind:tap="dialogSingleBtn" size="large" class="btn__long" type="info"
+      >Dialog with Single Button</mbutton
+    >
+    <mbutton bind:tap="dialogTwoBtn" size="large" class="btn__long mt12" type="info"
+      >Dialog with Two Buttons</mbutton
+    >
+    <mbutton bind:tap="dialogNoTitle" size="large" class="btn__long" type="info mt12"
+      >Dialog without title</mbutton
+    >
+    <mbutton bind:tap="dialogSwipe" size="large" class="btn__long" type="info mt12"
+      >Dialog with Swipe View</mbutton
+    >
+  </view>
+</view>

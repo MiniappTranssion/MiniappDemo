@@ -1,0 +1,10 @@
+<view class="pd16 navigation">
+    <view class="pd16 bg-white br4">
+        <mbutton bind:tap="showHomeBtn" size="large" class="btn" type="info">Show Homepage</mbutton>
+        <mbutton bind:tap="hideHomeBtn" size="large" class="btn mt12">Hide Homepage</mbutton>
+    </view>
+    <view class="pd16 bg-white br4 mt12">
+        <mbutton bind:tap="showAddHomeBtn" size="large" class="btn" type="info">Show Add to Home Screen</mbutton>
+        <mbutton bind:tap="hideAddHomeBtn" size="large" class="btn mt12">Hide Add to Home Screen</mbutton>
+    </view>
+</view>

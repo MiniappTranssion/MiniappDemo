@@ -1,0 +1,13 @@
+<view class="pd16 api">
+    <view class="pd-12-16-16 bg-white br4 location_info">
+      <text class="label">Waypoint</text>
+      <view class="ul" s-for="item in locationInfoList">
+        <view class="li">
+          <text>{{item.name}}</text>
+          <text class="location-value">{{locationInfo && locationInfo[item.key] || 'None'}}</text>
+        </view>
+      </view>
+      <mbutton bind:tap="getCurrentLocation" size="large" class="btn__long mt24" type="info">Get Current Location</mbutton>
+      <mbutton bind:tap="reset" size="large" class="btn__long mt12" type="default">Reset</mbutton>
+    </view>
+</view>

@@ -1,0 +1,80 @@
+<view class="pd16 button">
+  <view class="bg-white br4 pd16">
+    <text class="title">Type - primary</text>
+    <mbutton class="mt12" :long="true" type="primary" :loading="false"
+      >Primary</mbutton
+    >
+    <mbutton class="mt12" :long="true" type="primary" :loading="true"></mbutton>
+    <mbutton
+      class="mt12"
+      :long="true"
+      type="primary"
+      :loading="false"
+      :disabled="true"
+      >Primary - Disabled</mbutton
+    >
+  </view>
+  <view class="bg-white br4 pd16 mt12">
+    <text class="title">Type - secondary</text>
+    <mbutton class="mt12" :long="true" type="secondary" :loading="false"
+      >Secondary</mbutton
+    >
+    <mbutton
+      class="mt12"
+      :long="true"
+      type="secondary"
+      :loading="true"
+    ></mbutton>
+    <mbutton
+      class="mt12"
+      :long="true"
+      type="secondary"
+      :loading="false"
+      :disabled="true"
+      >Secondary - Disabled</mbutton
+    >
+  </view>
+  <view class="bg-white br4 pd16 mt12">
+    <text class="title">Type - warn</text>
+    <mbutton class="mt12" :long="true" type="warn" :loading="false"
+      >Warn</mbutton
+    >
+    <mbutton
+      class="mt12"
+      :long="true"
+      type="warn"
+      :loading="false"
+      :disabled="true"
+      >Warn - Disabled</mbutton
+    >
+  </view>
+  <view class="bg-white br4 pd16 mt12">
+    <text class="title">Size - mini</text>
+    <view class="mt12">
+      <mbutton size="mini" type="primary" :loading="false">AHA</mbutton>
+      <mbutton size="mini" type="primary" :loading="true"></mbutton>
+      <mbutton size="mini" type="primary" :loading="false" :disabled="true"
+        >AHA</mbutton
+      >
+    </view>
+  </view>
+  <view class="bg-white br4 pd16 mt12">
+    <text class="title">Form - type</text>
+    <mbutton
+      bind:tap="submit"
+      class="mt12"
+      :long="true"
+      type="primary"
+      :loading="false"
+      >Submit</mbutton
+    >
+    <mbutton
+      bind:tap="reset"
+      class="mt12"
+      :long="true"
+      type="secondary"
+      :loading="false"
+      >Reset</mbutton
+    >
+  </view>
+</view>

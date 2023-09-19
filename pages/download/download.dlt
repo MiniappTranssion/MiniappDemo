@@ -1,0 +1,14 @@
+<view class="pd16  api">
+    <view class="pd16 bg-white br4 download">
+        <view class="content" s-if="avatarUrl">
+            <image class="avatar" :src="avatarUrl"></image>
+        </view>
+        <view class="content" s-else>
+            <view class="desc">Click “Download a Photo and View”</view>
+        </view>
+        <view class="mt16">
+            <mbutton bind:tap="download" class="btn btn__long" type="info" :loading="loading">{{loading ? '' : 'Download a Photo and View'}}</mbutton>
+            <mbutton bind:tap="reset" class="btn btn__long" type="default">Reset</mbutton>
+        </view>
+    </view>
+</view>

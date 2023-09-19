@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": false,
+  "enablePullUpRefresh": false,
+  "enableNavigationBarLoading": false,
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "Progress Bar",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "navigationBarIconStyle": "black",
+  "navigationBarHomeAction": "back"
+}

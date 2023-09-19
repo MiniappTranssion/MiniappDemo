@@ -1,0 +1,10 @@
+<view class="pd16 api">
+  <view class="pd16 bg-white br4 phone">
+    <view class="item">
+      <text class="label">Phone Number</text>
+      <text class="phone-value">{{phone}}</text>
+      <!-- <input type="text" :value="phone" placeholder="Enter Phone Number" bind:input="modifyPhone"/> -->
+    </view>
+    <mbutton bind:tap="call" class="btn__long mt24" size="large" type="info">Make a Phone Call</mbutton>
+  </view>
+</view>

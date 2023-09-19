@@ -1,0 +1,25 @@
+.storage .item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0 12px;
+  line-height: 16px;
+  box-shadow: 0px -0.5px 0px 0px #e4e6eb inset;
+}
+
+.storage .item .label {
+  margin-right: 14px;
+  white-space: nowrap;
+}
+.storage .item .input {
+  border: 0;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  color: #191f2b;
+  line-height: 16px;
+  text-align: right;
+}
+.storage .item .input::placeholder {
+  font-size: 14px;
+  color: #92969e;
+}

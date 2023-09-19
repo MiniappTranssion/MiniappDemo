@@ -1,0 +1,7 @@
+<view class="pd16 api">
+    <view class="pd16 bg-white br4">
+        <mbutton bind:tap="select" size="large" class="btn__long" type="info">Select Photo</mbutton>
+        <mbutton bind:tap="preview" size="large" class="btn__long mt12" type="info">Preview</mbutton>
+        <mbutton bind:tap="save" size="large" class="btn__long" type="info mt12">Save Photo</mbutton>
+    </view>
+</view>

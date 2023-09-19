@@ -1,0 +1,7 @@
+<view class="pd16 api">
+    <view class="pd16 bg-white br4">
+        <mbutton bind:tap="navigatorTo" data-url="pages/page_jumping_04/page_jumping_04" size="large" class="btn btn__long" type="info">Go to a New Page</mbutton>
+        <mbutton bind:tap="navigatorBack" size="large" class="btn btn__long mt12" type="info">Return to Previous Page</mbutton>
+        <mbutton bind:tap="exit" size="large" class="btn btn__long" type="info mt12">Close All Pages</mbutton>
+    </view>
+</view>

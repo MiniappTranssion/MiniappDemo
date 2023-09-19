@@ -1,0 +1,25 @@
+.location_info {
+  padding-top: 12px;
+}
+.pd-12-16-16 {
+  padding: 12px 16px 16px;
+}
+.location_info .label {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #92969e;
+  line-height: 40px;
+}
+.location_info .ul .li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  color: #191f2b;
+  box-shadow: 0px -0.5px 0px 0px #e4e6eb inset;
+}
+.location_info .location-value {
+  color: #92969e;
+}

@@ -1,0 +1,1 @@
+<meditor done="Done" :imgs="imgs" bind:chosemedia="chosemedia" editor-placeholder="Unlock you thoughts..."/>

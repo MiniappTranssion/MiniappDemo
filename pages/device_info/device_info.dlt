@@ -1,0 +1,11 @@
+<view class="pd16 api">
+    <view class="pd16 bg-white br4 device_info">
+        <view class="ul" s-for="item in deviceInfoList">
+          <view class="li">
+            <text class="device-name">{{item.name}}</text>
+            <text class="device-value text-ellipsis ml16">{{deviceInfo && deviceInfo[item.key] || 'None'}}</text>
+          </view>
+        </view>
+        <mbutton bind:tap="getDeviceInfo" size="large" class="btn__long mt24" type="info">Get Device Info</mbutton>
+    </view>
+</view>

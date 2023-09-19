@@ -1,0 +1,12 @@
+<view class="pd16">
+  <view class="bg-white br4 image" s-for="item in buttons">
+    <text class="title">{{item.name}}</text>
+    <view class="image-item" s-for="child in item.children">
+      <text>{{child.desc}}</text>
+      <view class="img-wrap">
+        <!-- 支持懒加载，开启懒加载后，需要dataSrc存放实际需要显示的图片 -->
+        <image class="demo-img" data-src="/images/api_normal.png" :mode="child.key" :lazy-load="false" :src="child.src" />
+      </view>
+    </view>
+  </view>
+</view>

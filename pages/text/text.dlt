@@ -1,0 +1,18 @@
+<view>
+  <view class="pd16 text">
+    <view class="pd16 bg-white br4">
+      <text class="block"
+        >Here is a piece of text to present the Text component.</text
+      >
+      <text class="mt24 block">
+        To insert a new line, you can use the \n character.</text
+      >
+      <text class="mt24 block">
+        Compared with native apps, mini apps are more lightweight, can be
+        updated anytime, and is compatible with all platforms. Compared with web
+        apps, mini apps can be accessed offline and provide a better user
+        experience.</text
+      >
+    </view>
+  </view>
+</view>

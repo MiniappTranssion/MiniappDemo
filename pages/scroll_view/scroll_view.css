@@ -1,0 +1,42 @@
+.page-section-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.page-section-spacing {
+  margin-top: 60rpx;
+  border: 2rpx solid #ddd;
+}
+.scroll-view_H {
+  white-space: nowrap;
+}
+.scroll-view-item {
+  height: 300rpx;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1000;
+}
+.scroll-view-item_H {
+  display: inline-block;
+  width: 100%;
+  height: 300rpx;
+  line-height: 300rpx;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+.demo-text-1 {
+  background-color: #1aad19;
+}
+.demo-text-2 {
+  background-color: #2782d7;
+}
+.demo-text-3 {
+  background-color: #f1f1f1;
+  color: #353535;
+}

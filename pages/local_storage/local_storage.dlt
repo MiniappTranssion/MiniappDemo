@@ -1,0 +1,37 @@
+<view class="pd16 api">
+  <view class="pd16 bg-white br4 storage">
+    <view class="item">
+      <text class="label">Key</text>
+      <input
+        type="text"
+        key="storageKey"
+        class="input"
+        :value="storageKey"
+        placeholder="Input"
+        bind:input="modifyStorageKey"
+        bind:blur="updateStorageKey"
+      />
+    </view>
+    <view class="item">
+      <text class="label">Data</text>
+      <input
+        type="text"
+        ke="storageData"
+        class="input"
+        :value="storageData"
+        placeholder="Input"
+        bind:input="modifyStorageData"
+        bind:blur="updateStorageData"
+      />
+    </view>
+    <mbutton bind:tap="save" class="btn__long mt24" size="large" type="info"
+      >Save</mbutton
+    >
+    <mbutton bind:tap="read" class="btn__long mt12" size="large" type="info"
+      >Read</mbutton
+    >
+    <mbutton bind:tap="reset" class="btn__long mt12" size="large" type="default"
+      >Reset</mbutton
+    >
+  </view>
+</view>

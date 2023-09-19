@@ -1,0 +1,13 @@
+<view class="pd16 api">
+    <view class="pd16 bg-white br4 request">
+        <view class="request-tip" s-if="!info">
+          Click “Make a Request” to make network requests to server
+        </view>
+        <view class="request-tip" s-else>
+          {{info}}
+        </view>
+        <view>
+            <mbutton bind:tap="request" class="btn" type="info" :loading="loading">{{loading ? '' : 'Make a Request'}}</mbutton>
+        </view>
+    </view>
+</view>

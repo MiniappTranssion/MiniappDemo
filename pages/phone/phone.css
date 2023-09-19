@@ -1,0 +1,25 @@
+.phone .item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0 12px;
+  line-height: 16px;
+  box-shadow: 0px -0.5px 0px 0px #e4e6eb inset;
+}
+
+.phone .item .label {
+  margin-right: 14px;
+  white-space: nowrap;
+}
+.phone .item .phone-value {
+  border: 0;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  color: #92969e;
+  line-height: 16px;
+  text-align: right;
+}
+/* .phone .item input::placeholder {
+  font-size: 14px;
+  color: #92969e;
+} */
