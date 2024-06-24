@@ -1,0 +1,14 @@
+<view class="pd16 api">
+  <view class="pd16 bg-white br4 upload">
+    <view class="item">
+      <input type="text" class="input" placeholder="Enter your server URL" bind:input="modifyUploadUrl"/>
+    </view>
+    <view class="content" s-if="accessUrl">
+      <image class="avatar" :src="accessUrl"></image>
+    </view>
+    <view class="content" s-else>
+      <view class="desc">Upload a photo to server</view>
+    </view>
+    <mbutton bind:tap="upload" class="btn__long mt24" size="large" type="info">Upload</mbutton>
+  </view>
+</view>

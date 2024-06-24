@@ -3,4 +3,4 @@ dist-ssr
 node_modules
 .DS_Store
 RenderToNative.js
-upload
+./upload
